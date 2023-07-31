@@ -1,0 +1,9 @@
+alocação dinamica com matriz
+
+
+Correção do exercicio avaliativo
+
+vetor só possui uma dimenção
+matriz possui 
+
+matriz de peso e de variance

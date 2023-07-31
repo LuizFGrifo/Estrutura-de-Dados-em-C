@@ -1,0 +1,32 @@
+Ponteiros 
+
+Definição de ponteiro: 
+
+* identificar e mostrar algo
+
+* Ponteiros são variaveis que armazenam o endereço de memoria,
+mais especificamente, o endereço de outras variaveis
+
+Outra definição: cujo valor se refere diretamente a um outro valor alocado em outra área da memória, 
+através de seu endereço.
+
+finalidade: 
+
+* Permite pasagem por referencia ( passa o endereço dos dados ao inves de uma cópia)
+
+* Alocação dinamica de memória
+
+* Criação de estrutura de dados como listas encadeadas, pilhas, filas e árvores
+
+pilhas: o ultimo na pilha, é o primeiro a sair
+
+Exemplos:
+
+Primeiro temos que declarar a variavel, colocando seu tipo e nome
+
+int *ptr; Acessa o valor do endereço
+
+podemos utilizar ponteiros, para alterar uma estrutura em tempo de execução
+
+O "&" dá acesso ao endereço
+para acessarmos o valor utilizamos o "*"

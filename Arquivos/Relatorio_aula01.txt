@@ -1,0 +1,74 @@
+computador é uma maquina que manipula informações
+
+Um fator de relevante importancia é a forma de aramazenar as informações 
+
+De nada adiantaria um grande desenvolvimento do hardware e software se a 
+forma de armazenamento e tratamento da informação não acompnhasse esse desenvolvimento
+
+Por isso a importancia das estruturas de dados, que nada mais são do que formas otimizadas de armazenamento
+e tratamento das informações
+
+objetivo da aula, rever vetores e matrizes, para melhor entendimento da matéria daqui pra frenete
+
+vetor é homogênea, structs é heterogenia permitem que declaremos diversos tipos
+
+homogenia = utiliza apenas um tipo de dado
+
+* estrutura de dados que utiliza somente um tipo de dado;
+
+* correspondem a posição de memória
+
+* uma coisa que define o vetor é o index, a posição do dado na memória
+
+Vetor = é unidimencional = uma direção
+Matriz = é bidimensional = consegue percorrer mais de uma direção
+
+-----------------------------------------------------------------------------------------------------
+
+- vetor = estrutura de dados linear que necessita de somente um indice para que ses elementos sejam endereçado 
+
+* utilizado para armazenar uma lista de valores do mesmo tipo
+
+* permite armazenar mais de um valor em uma mesma variável
+
+* numero fixo de celulas identicas
+
+* cada uma das celulas possui seu proprio endereco ou indice, atraves do qual pode ser referenciado
+
+- Caracteristicas
+
+* alocação estatica
+
+* alocação sequencial
+
+* Posição de memória não liberada = temos que esperar o fim do programa para destruirmos ela
+
+* realocação dos elementos
+
+- Declaração do vetor
+
+<tipo> <nome da variavel> [tamanho];
+
+int vet[20];
+
+ideia: podemos utilizar o vetor, em um sistema de imposto de renda
+
+
+-----------------------------------------------------------------------------------------------------
+
+- matrizes 
+
+* necessita de um indice para referenciar a linha e outra para referenciar a coluna
+
+* é homogenia
+
+* Cada célula contem apenas um valor
+
+<tipo> <nome da variavel> [tamanho Y] [tamanho X];
+
+int vet[2][2];
+
+ideia:podemos podemos usar matriz em resultados de aproveitamento escolar de 4 turmas diferentes
+
+
+

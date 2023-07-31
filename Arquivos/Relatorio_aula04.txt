@@ -1,0 +1,29 @@
+Fixar o conhecimento sobre ponteiro
+
+Exercicio 01:
+
+Crie um programa que leia uma váriavel inteira do teclado
+e defina um ponteiro que aponte para essa variável. Depois,
+mostre na tela o valor associado ao endereço guardado pelo
+ponteiro e o endereço em si.
+
+Exercicio 02:
+
+Elabore um código que leia um inteiro "X" do teclado e defina
+um ponteiro para essa variavel. Depois, modifique o valor de "x"
+por meio do ponteiro e mostre na tela o valor de "X".
+
+Exercicio 03:
+
+Elabore um código que leia uma string e imprima seu resultado.
+
+No caso da linguagem C, o "&" não utilizamos para o Char, 
+pois todo vetor já é um ponteiro, ai não precisamos do "&"
+
+Exercicio 04:
+
+Crie um programa que leia um vetor de inteiros de 5 posições
+e defina um ponteiro para esse vetor. Depois, por meio do ponteiro,
+imprima todas as posições na tela e seus endereços.
+
+Aritimética de ponteiro, ele já tem os endereços e atribui as posições

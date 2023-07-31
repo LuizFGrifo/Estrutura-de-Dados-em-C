@@ -1,0 +1,26 @@
+Apresentação dos conceitos sobre alocação dinâmica
+
+MALLOC - Memory Allocation: aloca espaço para um bloco de bytes consecutivos na memória RAM do computador e devolve o endereço desse bloco.  
+O número de bytes é especificado no argumento da função. 
+
+CALLOC - zera todo mundo e não deixa lixo na memória
+
+A principal diferença entre as duas funções é que calloc inicializa a memória alocada com zeros, enquanto malloc não. 
+Portanto, se precisar de uma região de memória com todos os bits definidos como 0, é mais eficiente usar calloc em vez de malloc
+seguido de um loop para inicializar a memória.
+
+Calloc: recebe dois argumentos, enquanto malloc recebe apenas um. O segundo argumento de calloc 
+é o tamanho do objeto que deseja alocar, enquanto o primeiro argumento de malloc é a quantidade de memória a ser alocada em bytes.
+
+realloc: é usada para realocar um bloco de memória já alocado anteriormente pela malloc ou calloc. Isso permite que você aumente ou diminua o tamanho da memória alocada, conforme necessário. A função retorna um ponteiro para a memória alocada atualizada, 
+que pode ser igual ou diferente do ponteiro original. Se a realocação falhar, a função retorna NULL e a memória original permanece intacta
+
+Alocação de memoria permanesce oucupada, se não limpar
+a memória, pode acabar chegando em seu limite
+
+free(): Quando você alocar memória dinamicamente, é importante lembrar de liberar essa memória quando ela não for mais necessária. 
+Caso contrário, a memória alocada permanecerá ocupando espaço na memória do sistema, mesmo que não esteja sendo utilizada, 
+o que pode levar a problemas como vazamento de memória.
+
+
+

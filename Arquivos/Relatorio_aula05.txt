@@ -1,0 +1,18 @@
+Dados Heterogêneos
+
+- Mostrar sobre a extrutura dos dados heterôgeneos
+
+- Usa estrutura que apresenta mais de um tipo básico de dado é denominado heterogeneo
+
+- Struct podemos utilizar com diferentes tipos de dados
+
+Tem que declarar fora da classe main, pois em programação
+lemos informação de cima para baixo, da esquerda para a direita
+
+typedef, para criar um tipo
+
+depois em main, chamamos o tipo da struct e declaramos o nome
+
+temos que chamar a biblioteca string.h caso queiramos usar um Array de caracter
+
+utilizamos o getchar(), para limpar o buffer
